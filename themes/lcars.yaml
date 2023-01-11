@@ -863,5 +863,21 @@ LCARS Cardassia:
   lcars-card-mid-left-color: var(--lcars-cardassia-maroon)
   lcars-card-button: var(--lcars-cardassia-maroon)
   lcars-card-bottom-color: var(--lcars-c52)
+
+LCARS Zeldaar:
+  card-mod-theme: LCARS Classic
+  <<: *lcars-colors
+  <<: *base
+  <<: *card-mod-css
+  lcars-ui-primary: var(--lcars-violet-creme)
+  lcars-ui-secondary: var(--lcars-honey)
+  lcars-ui-tertiary: var(--lcars-roseblush)
+  # Card colors
+  lcars-card-top-color: var(--lcars-bluey)
+  lcars-card-mid-left-color: var(--lcars-khaki)
+  lcars-card-button: var(--lcars-african-violet)
+  lcars-card-bottom-color: var(--lcars-roseblush)
+
 # Paste your themes here |
 #                        V
+
